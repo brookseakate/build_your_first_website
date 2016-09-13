@@ -1,0 +1,12 @@
+/*index.html
+- use CSS styling to hide the bullet-points of the unordered list containing the book images.
+- use CSS styling to make all the images the same height*/
+li {
+    list-style: none;
+    display: inline;
+    padding: 6px;
+}
+
+img {
+    height: 280px;
+}

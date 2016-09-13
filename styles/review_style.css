@@ -1,0 +1,15 @@
+/*The Eloquent Ruby book image should be left-aligned with the details about the book to the right of it.*/
+
+aside ul {
+    float: left;
+}
+
+aside img {
+    float: left;
+    height: 240px;
+    padding-bottom: 20px;
+}
+
+#book-description {
+    clear: both;
+}

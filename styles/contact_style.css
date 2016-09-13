@@ -1,0 +1,14 @@
+/*The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it.*/
+#left {
+    float: left;
+}
+
+#right {
+    float: left;
+    padding-left: 20px;
+}
+
+img {
+    height: 200px;
+    border: 2px outset white;
+}

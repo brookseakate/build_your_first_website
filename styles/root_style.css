@@ -1,0 +1,65 @@
+/*In the style sheet you will be discovering how to:
+
+- Place the Header/Title section across the top of the site with a border and appropriate background color.
+- Provide an appropriate background color for the main content section
+- Select appropriate fonts & colors for text on the site.
+- Make the navigation links display different colors when the mouse rolls over the link.
+- Use CSS styling to hide the bullet-points of the unordered lists in the site.
+- Place the Footer section across the entire bottom of the site with a border and an appropriate background color*/
+body {
+    background-color: #C0C0C0;
+    font-family: Avenir, helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    border: 4px solid #981212;
+    background-color: #303841;
+    text-align: center;
+    color: white;
+    font-family: Avenir, helvetica, sans-serif;
+}
+
+header li {
+    display: inline;
+    padding: 30px;
+}
+
+
+li {
+    list-style-type: square;
+}
+
+h3 {
+    font-family: Avenir, helvetica, sans-serif;
+    color: #3A4750;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+    color: #981212;
+    font-size: 24px;
+}
+
+a:visited {
+    color: #59748C;
+}
+
+a:hover {
+    color:#D72323;
+}
+
+a:active {
+    color: #C0C0C0;
+}
+
+footer {
+    position: relative;
+    border: 4px solid #981212;
+    background-color: #303841;
+    text-align: center;
+    color: white;
+    font-family: Avenir, helvetica, sans-serif;
+    clear: both;
+}
